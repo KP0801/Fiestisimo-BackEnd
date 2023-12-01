@@ -1,0 +1,22 @@
+# Dependencias instaladas con npm
+node_modules/
+package-lock.json
+
+# Archivos de registro
+logs/
+*.log
+
+# Archivos generados por el sistema
+*.swp
+.DS_Store
+.env
+
+
+
+# Archivos de configuración
+
+
+# Archivos de compilación
+build/
+dist/
+public/
