@@ -67,7 +67,7 @@ exports.getUsersById = async (req, res) => {
   
       res.status(200).json({ user });
     } catch (error) {
-      console.error('Error al obtener los ddetalles del usuario:', error);
+      console.error('Error al obtener los detalles del usuario:', error);
       res.status(500).json({ error: 'Parece haber un problema al obtener detalles del usuario.' });
     }
   };

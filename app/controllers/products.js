@@ -94,8 +94,6 @@ exports.getProductById = async (req, res) => {
 exports.editProduct = async (req, res) => {
   try {
     const { id } = req.params; 
-    console.log(id);
-    console.log(req.params);
     const { name, description, price, category } = req.body;
     console.log(req.body);
 
